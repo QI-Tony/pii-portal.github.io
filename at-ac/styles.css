@@ -1,0 +1,189 @@
+@import url("https://cdn.uadigital.arizona.edu/lib/ua-brand-fonts/v1.0.1/milo.min.css");
+
+body,
+html {
+  background-color: white;
+  margin: 0px;
+  font-family: MiloWeb, Verdana, Geneva, sans-serif;
+}
+a {
+  font-weight: 700;
+  color: #8b0015;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  background-color: #ab0620;
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+  max-width: 960px; /* 2 */
+  height: 100%;
+  padding-right: 10px; /* 3 */
+  padding-left: 10px; /* 3 */
+  padding: 20px 10px;
+}
+.ualogo {
+  width: 250px;
+}
+
+.content {
+  background-color: white;
+}
+.ellerlogo {
+  width: 250px;
+  padding: 30px 0px 30px 0px;
+}
+.coverimage {
+  background-image: url("AI-Lab-Brand.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  padding-top: 33.71%;
+  position: relative;
+}
+.coverimage .wrapper {
+  position: absolute;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  box-sizing: border-box;
+  padding: none;
+}
+.stripe {
+  background-color: rgb(255, 255, 255, 0.9);
+  width: 450px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  padding: 0px 25px;
+  box-sizing: border-box;
+}
+.stripe .center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.stripe .title {
+  font-size: 38px;
+  text-align: left;
+  font-family: MiloWeb, Verdana, Geneva, sans-serif;
+  font-weight: 700;
+  color: #49595e;
+}
+.stripe .title:last-child {
+  color: #0b244b;
+}
+
+.mainContent {
+  padding-top: 50px;
+}
+h2 {
+  font-family: MiloSerifWeb, TimesNewRoman, "Times New Roman", Times,
+    Baskerville, Georgia, serif;
+  font-size: 28px;
+  text-align: center;
+  color: #49595e;
+  font-weight: 500;
+}
+p {
+  text-align: center;
+  font-size: 24px;
+  font-family: MiloWeb, Verdana, Geneva, sans-serif;
+  color: #403635;
+  line-height: 1.4;
+}
+.box {
+  background-color: #e1e9eb;
+  padding: 20px 40px;
+  margin: 80px 25px;
+}
+.pSmall {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+}
+button {
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: #0c234b;
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+  padding: 15px;
+  margin: 30px auto;
+  display: block;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1e5288;
+}
+
+.highlight {
+  padding: 50px;
+  background-color: #0d224b;
+}
+.highlight h2 {
+  color: #ffffff;
+}
+.highlight p {
+  color: #81d3eb;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.item {
+  flex: 1 1 300px;
+  border: 2px solid #e5e5e5;
+}
+.item .head {
+  padding: 5px;
+  background-color: #e1e9eb;
+}
+.item h3 {
+  text-align: center;
+}
+.item p {
+  padding: 20px;
+}
+
+.footer {
+  margin-top: 70px;
+  padding-top: 70px;
+  background-color: #f4ede5;
+}
+.itemImage {
+  border: none;
+  text-align: center;
+  padding-top: 20px;
+}
+.itemImage img {
+  margin: auto;
+  width: 250px;
+}
+
+@media only screen and (max-width: 960px) {
+  .stripe .title {
+    font-size: 25px;
+  }
+}
